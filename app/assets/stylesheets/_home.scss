@@ -30,13 +30,16 @@
 .like-things__frame__text {
   height: 40px;
   line-height: 20px;
+  font-size: 20px;
+  font-weight: bold;
   display: flex;
   justify-content: space-between;
 }
 
-.like-thigs__frame__text-1 {
-  font-size:20px;
+.like-things__frame__text-1 {
+  color: rgb(45, 128, 196);
   font-weight: bold;
+  font-size: 15px;
 }
 
 .like-things__frame__info {
@@ -107,9 +110,18 @@
 .ladynew-border__text {
   height: 60px;
   line-height: 60px;
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
   background-color: red;
   display: flex;
   justify-content: space-between;
+}
+
+.ladynew-border__text-1 {
+  color: rgb(45, 128, 196);
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .ladynew-border__frame {
@@ -147,9 +159,18 @@
 .ladynew-end-border__text {
   height: 60px;
   line-height: 60px;
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
   background-color: red;
   display: flex;
   justify-content: space-between;
+}
+
+.ladynew-end-border__text-1 {
+  color: rgb(45, 128, 196);
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .ladynew-end-border__frame {
@@ -168,4 +189,35 @@
 .ladynew-end-border__frame__things-image {
   height: 200px;
   background-color: blue;
+}
+
+.sell-btn {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  top: calc(100% - 180px);
+  left: calc(100% - 180px);
+  position: absolute;
+  position: fixed;
+}
+
+.sell-btn__text {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.sell-btn__icon {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+}
+
+.wrapper {
+  position: relative;
+  overflow: scroll;
 }
