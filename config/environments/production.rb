@@ -23,7 +23,7 @@ Rails.application.configure do
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   # Compress JavaScripts and CSS.
-  # config.assets.js_compressor = :uglifier　　javascript軽量化の記述あとでコメントアウト外す可能性あり
+  # config.assets.js_compressor = :uglifier　　javascript軽量化の記述あとでコメントアウト外す可能性あり!
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
